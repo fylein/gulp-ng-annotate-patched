@@ -1,7 +1,7 @@
 "use strict";
 
 var through = require("through2");
-var ngAnnotate = require("ng-annotate");
+var ngAnnotate = require("ng-annotate-patched");
 var applySourceMap = require("vinyl-sourcemaps-apply");
 var merge = require("merge");
 var BufferStreams = require("bufferstreams");
@@ -26,7 +26,7 @@ function transform(file, input, opts) {
     applySourceMap(file, sourceMap);
   }
 
-  return new Buffer(res.src);
+  return Buffer.from(res.src);
 }
 
 module.exports = function (options) {
