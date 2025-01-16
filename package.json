@@ -1,5 +1,5 @@
 {
-  "name": "gulp-ng-annotate-patched",
+  "name": "fyle-gulp-ng-annotate-patched",
   "version": "1.0.0",
   "description": "Add angularjs dependency injection annotations with ng-annotate-patched",
   "main": "index.js",
