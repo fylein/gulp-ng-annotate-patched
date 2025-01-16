@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Exagon-Sofe/gulp-ng-annotate-patched.git"
+    "url": "https://github.com/fylein/gulp-ng-annotate-patched"
   },
   "keywords": [
     "gulpplugin",
@@ -20,12 +20,12 @@
     "annotate",
     "ng-annotate"
   ],
-  "author": "Kagami Hiiragi",
+  "author": "Aiyush Dhar",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/Exagon-Sofe/gulp-ng-annotate-patched/issues"
+    "url": "https://github.com/fylein/gulp-ng-annotate-patched/issues"
   },
-  "homepage": "https://github.com/Exagon-Sofe/gulp-ng-annotate-patched",
+  "homepage": "https://github.com/fylein/gulp-ng-annotate-patched",
   "dependencies": {
     "bufferstreams": "^1.1.3",
     "merge": "^1.2.1",
