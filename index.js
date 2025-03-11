@@ -3,7 +3,7 @@
 var through = require("through2");
 var ngAnnotate = require("ng-annotate-patched");
 var applySourceMap = require("vinyl-sourcemaps-apply");
-var merge = require("merge");
+var { merge } = require("@generates/merger");
 var BufferStreams = require("bufferstreams");
 var PluginError = require("plugin-error");
 
