@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-eol-scan:
-    uses: fylein/workflows/.github/workflows/eol-outdated-js-scan.yml@master
+    uses: fylein/workflows/.github/workflows/eol-outdated-js-scan@master
     if: ${{ github.event.pull_request.draft == false }}
     secrets:
       github-token: ${{ secrets.GITHUB_TOKEN }}
