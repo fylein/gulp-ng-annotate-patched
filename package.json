@@ -38,5 +38,10 @@
     "gulp-sourcemaps": "*",
     "mocha": "*",
     "vinyl": "^2.2.1"
+  },
+  "overrides": {
+    "gulp-sourcemaps": {
+      "postcss": "8.4.31"
+    }
   }
 }
