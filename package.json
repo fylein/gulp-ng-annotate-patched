@@ -45,6 +45,6 @@
     },
     "diff": "5.2.2",
     "minimatch": "5.1.8",
-    "serialize-javascript": "7.0.3"
+    "serialize-javascript": "7.0.5"
   }
 }
